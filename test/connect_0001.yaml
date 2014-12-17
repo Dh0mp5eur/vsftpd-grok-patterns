@@ -1,0 +1,4 @@
+pattern: VSFTPD
+data: "CONNECT: Client \"192.168.1.1\""
+result:
+        vsftpd_client_ip: 192.168.1.1
