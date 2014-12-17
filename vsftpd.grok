@@ -1,0 +1,5 @@
+# common vsftpd patterns
+VSFTPD_CONNECT CONNECT: Client \"%{IP:vsftpd_client_ip}\"
+
+# aggregate all patterns
+VSFTPD %{VSFTPD_CONNECT}
