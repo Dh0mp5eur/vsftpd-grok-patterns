@@ -1,4 +1,4 @@
-pattern: VSFTPD
+pattern: VSFTPD_ACTION
 data: "[newuser] OK UPLOAD: Client \"192.168.1.1\", \"/transfert.ACK\", 7 bytes, 0.17Kbyte/sec"
 result:
         vsftpd_user: newuser
